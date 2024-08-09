@@ -9,17 +9,17 @@ export default function Header() {
   const {user}=useContext(Usercontext);
   return (
     <div>
-      <div className="flex items-center justify-between m-2 gap-4  bg-green-300 h-20 p-2">
+      <div className="flex items-center justify-between m-2 gap-4  bg-green-300 h-20 px-2">
     <Link to='/'  className="flex items-center  gap-2">
       <div className="-rotate-90 transform scale-150 ">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
   <path strokeLinecap="round" strokeLinejoin="round" d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />
 </svg>
 </div>
-<span className="text-xl">Airbnb</span>
+<span className="text-xl">BookMyStay</span>
 </Link >
-   <div className="flex  gap-2 py-1 px-2 bg-gray-100 rounded-full w-1/2  ">
-    <div className=" hover:bg-gray-300 rounded-full p-3 w-1/3">
+   <div className="flex  gap-2 py-1 px-2 bg-gray-100 rounded-full w-1/2 h-full ">
+    <div className=" hover:bg-gray-300 rounded-full p-3 w-1/4">
      <p className="font-bold mb-1 ">where</p>
      <input type="text" placeholder="search destinations" className=" bg-transparent w-full outline-none border-none " />
      </div>
